@@ -4,88 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- my styles -->
+     <link rel="stylesheet" type="text/css" href="css/styles.css" />  
+    
     <title>This is me</title>
 </head>
 <body>
-    <header class="header background">
-         This is me
-    </header>
-        
-        <nav class="nav background">
-            <div class="leftNav"></div>
-            <ul class="nav-list">
-                <li><a href="#resume">Acerca de</a></li>
-                <li><a href="./pages/proyectos.html">Proyectos</a></li>
-                <li><a href="./pages/food.html">Comida</a></li>
-                <li><a href="#Contact">Contacto</a></li>
-            </ul>
-           
-        </nav>
+    <div class="container py-3">
+    <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                    <span class="fs-4">THIS IS ME</span>
+          </a>
+    
+          <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            <a class="me-3 py-2 text-dark text-decoration-none" href="#">Acerca de</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="./pages/proyectos.html">Proyectos</a>
+            <a class="me-3 py-2 text-dark text-decoration-none"  href="./pages/food.html">Comida</a>
+            <a class="py-2 text-dark text-decoration-none"  href="#Contact">Contacto</a>
+          </nav>
+        </div>
+        </header>
+    
+        <main class="container body__body ">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-6 p-3 pb-md-4 mx-auto text-center">
+                    <h2 class="display-4 fw-normal">Acerca de mi...</h2>
+                    <p>Soy Ingeniero en sistemas enfocado al desarrollo BackEnd, he trabajado en diferentes empresas y tocado una gran variedad de tecnologias, actualmente me encuentro incurcionando en el desarrollo de bajo nivel junto con hardware en Toshiba.</p>
+                    <p>Tomo este curso por que nunca pude lograr nada con CSS...</p>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-6 p-3 pb-md-4 mx-auto text-center">
+                    <img class="col-6 col-sm-6 col-lg-12 p-3 pb-md-4 mx-auto text-center" src="./multimedia/PHOTO.png" alt="photo">
+                </div>
+            </div>
 
-        <main>
-            <section class="background section">
-                <div class="box-main" >
-                    
-                    <div class="firstHalf">
-                        <p class="text-small">
-                                Soy Rod Monroy 
-                                <br>
-                                 gusto verte por aca!</a>
-                         </p>
-                         <br>
-                        <p class="text-big">Conoceme</p>
-                        
-                    </div>
-                    <div class="div-right">
-                        <img src="./multimedia/1634568825860.jfif" alt="Photo">
-                    </div>
-                </div>
-            </section>
-            
-            <section id="resume" class="background">
-                <div class="box-life">
-                    <h1> Acerca de mi...   </h1>
-                    <p class="text-small">
-                    Soy Ingeniero en sistemas enfocado al desarrollo BackEnd, he trabajado en diferentes empresas y tocado una gran variedad de tecnologias, actualmente me encuentro incurcionando en el desarrollo de bajo nivel junto con hardware en Toshiba. 
-                    <br>
-                    <br>Tomo este curso por que nunca pude lograr nada con CSS...
-                    <br>Aca te dejo algunas de las teconologias que manejo.
-                    </p>
-                </div>
-                    <div class="box-life">
-                    <div class="divTable">
-                        <div class="divTableBody">
-                        <div class="divTableRow">
-                        <div class="divTableCell">Java</div>
-                        <div class="divTableCell">&nbsp;C#</div>
-                        <div class="divTableCell">Python / Django&nbsp;</div>
-                        <div class="divTableCell">&nbsp;Linux (Red Hat)</div>
-                        </div>
-                        <div class="divTableRow">
-                        <div class="divTableCell">&nbsp;AWS</div>
-                        <div class="divTableCell">&nbsp;Azure</div>
-                        <div class="divTableCell">&nbsp;GCP</div>
-                        <div class="divTableCell">&nbsp;Blockchain</div>
-                        </div>
-                        <div class="divTableRow">
-                        <div class="divTableCell">&nbsp;Apache Camel</div>
-                        <div class="divTableCell">&nbsp;Bash</div>
-                        <div class="divTableCell">&nbsp;SQL</div>
-                        <div class="divTableCell">&nbsp;Varias otras...</div>
-                        </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="display-6 text-center mb-4">Tecnologias</h2>
 
-                <footer>
-                    <h4>Footer</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore aut alias, quis culpa totam laborum? Animi impedit quisquam ullam facilis suscipit rem laudantium assumenda aliquam commodi quidem tempore, alias deleniti.</p>
-                </footer>
-              
-            </section>
+            <div class="row justify-content-md-center row-cols-1 row-cols-md-3 row-cols-lg-4 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-3 fw-normal">Java</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-3 fw-normal">C#</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-3 fw-normal">Python/Django</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-3 fw-normal">Linux/Redhat</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-3 fw-normal">AWS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-3 fw-normal">GCP</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-3 fw-normal">Apache Caml</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-3 fw-normal">Bash</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+              <div class="col-12 col-md">
+                <small class="d-block mb-3 text-muted">Rodrigo Monroy &copy; 2023</small>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random text</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Not-Lorem Section</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Talvez despues...</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">El formato se ve bonito</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Lorem?</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Debi usar Lorem</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Bye</a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

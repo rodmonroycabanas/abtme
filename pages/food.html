@@ -4,58 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../styles.css" /> 
-    <title>Ultimos proyectos</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- my styles -->
+     <link rel="stylesheet" type="text/css" href="../css/styles.css" />  
+    
+    <title>This is me</title>
 </head>
 <body>
-    <header class="header background">
-        Proyectos
-   </header>
-       
-       <nav class="nav background">
-           <div class="leftNav"></div>
-           <ul class="nav-list">
-               <li><a href="../index.html">Acerca de</a></li>
-               <li><a href="./proyectos.html">Proyectos</a></li>
-               <li><a href="./food.html">Comida</a></li>
-               <li><a href="#Contact">Contacto</a></li>
-           </ul>
-          
-       </nav>
-       <main>
-
-            <div>
-                Comida 1 
-                <div>Imagen</div>
-                <div>Nombre</div>
-            </div>
-            <div>
-                Comida 2 
-                <div>Imagen</div>
-                <div>Nombre</div>
-            </div>
-            <div>
-                Comida 3 
-                <div>Imagen</div>
-                <div>Nombre</div>
-            </div>
-            <div>
-                Comida 4 
-                <div>Imagen</div>
-                <div>Nombre</div>
-            </div>
-            <div>
-                Comida 5 
-                <div>Imagen</div>
-                <div>Nombre</div>
-            </div>
-            <div>
-                Comida 6 
-                <div>Imagen</div>
-                <div>Nombre</div>
-            </div>
-        
-       </main>
+    <div class="container py-3">
+    <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                    <span class="fs-4">THIS IS ME</span>
+          </a>
     
+          <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            <a class="me-3 py-2 text-dark text-decoration-none" href="../index.html">Acerca de</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="../pages/proyectos.html">Proyectos</a>
+            <a class="me-3 py-2 text-dark text-decoration-none"  href="../pages/food.html">Comida</a>
+            <a class="py-2 text-dark text-decoration-none"  href="#Contact">Contacto</a>
+          </nav>
+        </div>
+        </header>
+    
+        <main class="container body__body ">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-6 p-3 pb-md-4 mx-auto text-center">
+                    <h2 class="display-4 fw-normal">Comida</h2>
+                    <p>Permiteme compartirte los manjares culinarios de Jalisco</p>
+                </div>
+            </div>    
+            <div class="row mb-2">
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-dark-emphasis">Fonda</strong>
+                      <h3 class="mb-0">Quesadillas auditorio</h3>
+                      <p class="card-text mb-auto">Las mejores Quesadillas! su chicharron es incomparable!</p>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                            <image xlink:href="../multimedia/quesadillas.jpg"   height="100%">
+                        </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-dark-emphasis">Carnitas</strong>
+                        <h3 class="mb-0">Tortas ahogadas Camaney</h3>
+                        <p class="card-text mb-auto">Tortas insuperables a un lado del mercado de abastos</p>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                              <image xlink:href="../multimedia/quesadillas.jpg"   height="100%">
+                          </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-dark-emphasis">Fonda</strong>
+                        <h3 class="mb-0">Cenaduria Nuñez</h3>
+                        <p class="card-text mb-auto">Ideal para una cena tipica en familia</p>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                              <image xlink:href="../multimedia/quesadillas.jpg"   height="100%">
+                          </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-dark-emphasis">Tacos</strong>
+                        <h3 class="mb-0">Tacos Gabo</h3>
+                        <p class="card-text mb-auto">Una joya oculta, el mejor pastor de zona real</p>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                              <image xlink:href="../multimedia/quesadillas.jpg"   height="100%">
+                          </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-dark-emphasis">Carnes</strong>
+                        <h3 class="mb-0">Camilos 33</h3>
+                        <p class="card-text mb-auto">Los originales de sta. Tere, con mas historia que garibali</p>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                              <image xlink:href="../multimedia/quesadillas.jpg"   height="100%">
+                          </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-dark-emphasis">Carnes</strong>
+                        <h3 class="mb-0">Camilos 33</h3>
+                        <p class="card-text mb-auto">Los originales de sta. Tere, con mas historia que garibali</p>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                              <image xlink:href="../multimedia/quesadillas.jpg"   height="100%">
+                          </svg>
+                      </div>
+                    </div>
+                  </div>
+               
+              </div>
+        </main>
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+              <div class="col-12 col-md">
+                <small class="d-block mb-3 text-muted">Rodrigo Monroy &copy; 2023</small>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random text</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Not-Lorem Section</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Talvez despues...</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">El formato se ve bonito</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Lorem?</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Debi usar Lorem</a></li>
+                  <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Bye</a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  
 </body>
 </html>
