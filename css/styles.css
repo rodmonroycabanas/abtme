@@ -13,3 +13,16 @@ body {
 img {
   width: 100%;
   height: auto; }
+
+.card-img-top {
+    margin: 10px;
+    width: 90%;
+    max-height: 90%;}
+
+.card-img-container{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+.top-buffer { margin-top:5px; }
